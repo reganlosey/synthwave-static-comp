@@ -4,40 +4,46 @@ html {
 
 body {
   height: 100%;
-  width:100%
 }
-
-.vw-title{
-  font-size:1.5rem;
-}
-
-.bottom-title-list{
-  font-size: 1.2rem;
-
-}
-
-.right-title-text{
-  font-size: 1rem;
-  text-align: right;
-
-}
-header {
+.header-content {
+  display:flex;
   height: 5rem;
   border: 1px solid rgb(87, 33, 173);
 }
 
+.title-bar{
+  height: 5rem;
+  width: 28rem;
+  display:flex;
+  align-items:flex-end;
+  border: 1px solid purple;
+}
+
+.vibe-text{
+  font-size:2rem
+}
+
+.cruise-text{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.top-text{
+  font-size: 2em;
+}
+
 main {
-  height: 90vh;
   border: 1px solid rgb(252, 14, 85);
 }
 
-.row-container {
+.grid-container {
   height: 100vh;
-  margin: 0 auto;
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 15px;
+  grid-row-gap: 15px;
+  grid-column-gap: 0px;
   border: 1px solid rgb(228, 0, 0);
 }
 
@@ -45,14 +51,30 @@ main {
   margin: 0 auto;
   display: inline-block;
   border: 2px solid black;
-  height: 7em;
-  width:6em;
+  height: 19em;
+  width: 16em;
   text-align: center;
-  padding: 4rem;
 }
 
+.box-header{
+  border: 1px solid black
+}
+
+.box-header-img{
+  height: 8em;
+  width: 16em;
+}
+.partner{
+
+}
+.date{
+
+}
+.url{
+  
+}
 .box-1{
-  background-color: #01cdfe
+
 }
 .box-2{
   background-color: #b967ff
