@@ -4,11 +4,14 @@ html {
 
 body {
   height: 100%;
+  font-family: 'Poiret One', cursive;
 }
+
 .header-content {
   display:flex;
   height: 5rem;
   border: 1px solid rgb(87, 33, 173);
+  background-color:#13477d
 }
 
 .title-bar{
@@ -17,15 +20,19 @@ body {
   display:flex;
   align-items:flex-end;
   border: 1px solid purple;
+  background-color: #13477d
 }
 
 .vibe-text{
-  font-size:2rem
+  font-size:2rem;
+  border: 1px solid black;
+
 }
 
 .cruise-text{
   font-size: 2rem;
   margin-left: 1rem;
+  text-shadow: 3px 4px 4px #930277
 }
 
 .top-text{
@@ -54,6 +61,7 @@ main {
   height: 19em;
   width: 16em;
   text-align: center;
+  box-shadow: 4px 3px 15px #04c4ca;
 }
 
 .box-header{
@@ -65,23 +73,63 @@ main {
   width: 16em;
 }
 .partner{
+  text-align:left;
+  width: 16rem;
+  font-size: 16px;
+  border: 1px solid black;
 
 }
+
+.attachments{
+  font-size: 13px;
+  text-align: left;
+  padding: .5rem 0 0 0;
+}
+
+.number{
+  text-align: left;
+  font-size:24px;
+  padding:.3rem 0 .1rem .2rem;
+}
+
 .date{
+  font-size: 12px;
+  text-align: left;
+  margin: 0 0 0.3rem;
 
 }
+
 .url{
-  
+  background-color: thistle;
+  font-size: 14px;
+  height: 2.3rem;  
+  word-wrap: break-word;
 }
+
+ .playlist{
+  font-size: 15px;
+  text-align:left;
+ }
+
+ .partner,
+ .date,
+ .url,
+ .playlist,
+ .attachments,
+ .number{
+  font-family:'Open Sans', bold;
+
+ }
+
 .box-1{
 
 }
 .box-2{
-  background-color: #b967ff
+  background-color: #e2a099
 }
 .box-3{
-  background-color:#fffb96
+  background-color:#2e2157
 }
 .box-4{
-  background-color: #ff71ce
+  background-color: #920075
 }
