@@ -5,38 +5,41 @@ html {
 body {
   height: 100%;
   font-family: 'Poiret One', cursive;
+  background-color: #670b5c
 }
 
 
 .title-bar{
-  height: 5rem;
+  height: 10vh;
   width: 100%;
   display: flex;
   align-items: flex-end;
-  -webkit-text-stroke: .5px black;
   box-shadow: 1px 0px 26px rgb(255 174 82);
   background-image: linear-gradient(to bottom, #630fbb, #9a4259);
   position: relative;
-  mix-blend-mode: screen;
 }
 
 .vibe-text{
-  font-size:2rem;
-  padding: 0 0 0 .3rem;
+  font-size:2em;
+  padding: 0 0 0 1rem;
+  color: #ffffff;
+  text-shadow: 6px 2px 5px #ffdf01;
 }
 
 .cruise-text{
   font-size: 2rem;
   margin-left: 1rem;
-  text-shadow: 3px 4px 4px #930277;
-  -webkit-text-stroke: .5px black;
+  text-shadow: 3px 4px 4px #006f4b;
+  color: mediumspringgreen;
 }
 
 .top-text{
-  font-size: 2em;
-  height: 3rem;
+  font-size: 2.5em;
+  height: 10vh;
   background-color: #670b5c;
-  padding: .5rem 0 0 .3rem;
+  color: #ffffff;
+  text-shadow: 6px 2px 5px #ffdf01;
+  padding: .5rem 0 0 .7rem;
 }
 
 main {
@@ -56,20 +59,18 @@ main {
 .box {
   margin: 0 auto;
   height: 100%;
-  width: 24vw;
+  width: 23vw;
   text-align: center;
-  box-shadow: 4px 3px 15px #04c4ca;
+  box-shadow: 6px 4px 10px #030005;
   background-color: #b18dd2;
 }
 
-.box-header{
-
-}
 
 .box-header-img{
   height: 100%;
   width: 100%;
 }
+
 .partner{
   text-align:left;
   width: 10em;
@@ -95,8 +96,8 @@ main {
   font-size: 12px;
   text-align: left;
   margin: 0 0 0.4rem .4rem;
-
 }
+
 .url-container{
   max-width: 100%;
   margin: 0px 5.5% 0 3.5%;
@@ -109,11 +110,16 @@ main {
   margin: 0 .5vw 0 0.5vw;
 }
 
+.playlist-container {
+
+}
+
  .playlist{
   font-size: 15px;
   text-align:left;
   margin: 0.1rem 0 0 0.4rem;
  }
+
  
  .partner,
  .date,
@@ -126,6 +132,11 @@ main {
   width: 100%;
  }
 
-
- @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ .box-8-header-img{
+  height: 100%;
+  width: 100%
  }
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+ } 
