@@ -56,10 +56,14 @@ main {
   background-color: #670b5c;
 }
 
+.box-header{
+  height:45%;
+
+}
 .box {
   margin: 0 auto;
   height: 100%;
-  width: 23vw;
+  width: 20vw;
   text-align: center;
   box-shadow: 6px 4px 10px #030005;
   background-color: #b18dd2;
@@ -128,13 +132,7 @@ main {
  .attachments,
  .number{
   font-family:'Open Sans', bold;
-  height: 100%;
-  width: 100%;
- }
-
- .box-8-header-img{
-  height: 100%;
-  width: 100%
+  box-sizing: border-box;
  }
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
