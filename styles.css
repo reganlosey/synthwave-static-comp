@@ -45,8 +45,9 @@ body {
 main {
 }
 
+
 .grid-container {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -56,19 +57,20 @@ main {
   background-color: #670b5c;
 }
 
-.box-header{
-  height:45%;
 
-}
+
 .box {
-  margin: 0 auto;
+  margin: auto;
   height: 100%;
-  width: 20vw;
+  width: 75%;
   text-align: center;
   box-shadow: 6px 4px 10px #030005;
   background-color: #b18dd2;
 }
 
+.box-header {
+  height:45%
+}
 
 .box-header-img{
   height: 100%;
@@ -77,22 +79,19 @@ main {
 
 .partner{
   text-align:left;
-  width: 10em;
   font-size: 16px;
-  padding: 0 0 0 0.4rem;
+  padding: 5% 0 0 0.4rem;
 }
 
 .attachments{
   font-size: 13px;
   text-align: left;
-  padding: .5rem 0 0 0;
-  padding: 0 0 0 0.4rem;
 }
 
 .number{
   text-align: left;
   font-size:24px;
-  padding:.3rem 0 .1rem .4rem;
+  /* padding:.3rem 0 .1rem .4rem; */
   text-shadow: 3px 1px 5px cyan;
 }
 
@@ -114,14 +113,10 @@ main {
   margin: 0 .5vw 0 0.5vw;
 }
 
-.playlist-container {
-
-}
 
  .playlist{
   font-size: 15px;
   text-align:left;
-  margin: 0.1rem 0 0 0.4rem;
  }
 
  
@@ -133,6 +128,14 @@ main {
  .number{
   font-family:'Open Sans', bold;
   box-sizing: border-box;
+  word-break: break-word;
+ }
+
+ .playlist,
+ .attachments,
+ .number{
+   padding: 0 0 0 3%;
+
  }
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
