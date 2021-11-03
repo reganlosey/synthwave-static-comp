@@ -5,6 +5,7 @@ html {
 body {
   height: 100%;
   font-family: 'Poiret One', cursive;
+  
   background-color: #670b5c
 }
 
@@ -15,7 +16,7 @@ body {
   display: flex;
   align-items: flex-end;
   box-shadow: 1px 0px 26px rgb(255 174 82);
-  background-image: linear-gradient(to bottom, #630fbb, #9a4259);
+  background-image: linear-gradient(to bottom, #44008b, #880091);
   position: relative;
 }
 
@@ -34,70 +35,73 @@ body {
 }
 
 .top-text{
-  font-size: 2.5em;
+  font-size: 2.7em;
   height: 10vh;
   background-color: #670b5c;
   color: #ffffff;
   text-shadow: 6px 2px 5px #ffdf01;
-  padding: .5rem 0 0 .7rem;
+  background-image: linear-gradient(to top, #44008b, #880091);
+  padding: .5rem 0 1% .7rem;
 }
 
 main {
+
 }
 
+
 .grid-container {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: auto;
   grid-row-gap: 15px;
   grid-column-gap: 0px;
-  background-color: #670b5c;
+  background-color: #44008b;
 }
 
-.box-header{
-  height:45%;
 
-}
+
 .box {
-  margin: 0 auto;
+  margin: auto;
   height: 100%;
-  width: 20vw;
+  width: 75%;
   text-align: center;
-  box-shadow: 6px 4px 10px #030005;
-  background-color: #b18dd2;
+  box-shadow: 7px 2px 11px #00bdbd;
+  background-color: #c48eff;
+  background-image: linear-gradient(177deg, #05a7af8c, #ba00f7ab);
 }
 
+.box-header {
+  height:45%
+}
 
 .box-header-img{
   height: 100%;
   width: 100%;
 }
 
-.partner{
+.recipient{
   text-align:left;
-  width: 10em;
-  font-size: 16px;
-  padding: 0 0 0 0.4rem;
+  font-size: 18px;
+  padding: 5% 0 1.5% 0.4rem;
 }
 
 .attachments{
   font-size: 13px;
   text-align: left;
-  padding: .5rem 0 0 0;
-  padding: 0 0 0 0.4rem;
+  padding: 0 0 0 3%;
 }
 
 .number{
   text-align: left;
   font-size:24px;
-  padding:.3rem 0 .1rem .4rem;
-  text-shadow: 3px 1px 5px cyan;
+  padding: 3% 0 0 3%;
+  text-shadow: 6px 2px 3px #02b2bb;
 }
 
 .date{
-  font-size: 12px;
+  font-size: 13px;
   text-align: left;
   margin: 0 0 0.4rem .4rem;
 }
@@ -106,6 +110,11 @@ main {
   max-width: 100%;
   margin: 0px 5.5% 0 3.5%;
 }
+
+.attachments{
+  padding: 0 0 0 3%;
+}
+
 .url{
   background-color: #ca9c044f;
   font-size: 14px;
@@ -114,26 +123,25 @@ main {
   margin: 0 .5vw 0 0.5vw;
 }
 
-.playlist-container {
-
-}
 
  .playlist{
   font-size: 15px;
   text-align:left;
-  margin: 0.1rem 0 0 0.4rem;
+  padding: 3% 0 0 3%;
  }
 
  
- .partner,
+ .recipient,
  .date,
  .url,
  .playlist,
  .attachments,
  .number{
-  font-family:'Open Sans', bold;
+  font-family:'Raleway', sans-serif;
   box-sizing: border-box;
+  word-break: break-word;
  }
+
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 
