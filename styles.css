@@ -5,6 +5,7 @@ html {
 body {
   height: 100%;
   font-family: 'Poiret One', cursive;
+  
   background-color: #670b5c
 }
 
@@ -15,7 +16,7 @@ body {
   display: flex;
   align-items: flex-end;
   box-shadow: 1px 0px 26px rgb(255 174 82);
-  background-image: linear-gradient(to bottom, #630fbb, #9a4259);
+  background-image: linear-gradient(to bottom, #44008b, #880091);
   position: relative;
 }
 
@@ -39,10 +40,12 @@ body {
   background-color: #670b5c;
   color: #ffffff;
   text-shadow: 6px 2px 5px #ffdf01;
+  background-image: linear-gradient(to top, #44008b, #880091);
   padding: .5rem 0 0 .7rem;
 }
 
 main {
+
 }
 
 
@@ -54,7 +57,7 @@ main {
   grid-auto-rows: auto;
   grid-row-gap: 15px;
   grid-column-gap: 0px;
-  background-color: #670b5c;
+  background-color: #44008b;
 }
 
 
@@ -64,8 +67,9 @@ main {
   height: 100%;
   width: 75%;
   text-align: center;
-  box-shadow: 6px 4px 10px #030005;
-  background-color: #b18dd2;
+  box-shadow: 7px 2px 11px #00bdbd;
+  background-color: #c48eff;
+  background-image: linear-gradient(177deg, #05a7af8c, #ba00f7ab);
 }
 
 .box-header {
@@ -93,7 +97,7 @@ main {
   text-align: left;
   font-size:24px;
   padding: 3% 0 0 3%;
-  text-shadow: 3px 1px 5px cyan;
+  text-shadow: 6px 2px 3px #02b2bb;
 }
 
 .date{
@@ -110,6 +114,7 @@ main {
 .attachments{
   padding: 0 0 0 3%;
 }
+
 .url{
   background-color: #ca9c044f;
   font-size: 14px;
@@ -125,9 +130,6 @@ main {
   padding: 3% 0 0 3%;
  }
 
- .box-footer{
-   border: 2px solid red;
- }
  
  .partner,
  .date,
@@ -135,7 +137,7 @@ main {
  .playlist,
  .attachments,
  .number{
-  font-family:'Open Sans', bold;
+  font-family:'Raleway', sans-serif;
   box-sizing: border-box;
   word-break: break-word;
  }
