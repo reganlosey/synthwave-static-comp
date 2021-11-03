@@ -6,7 +6,7 @@
 
 <br>
 
-### [Check out the full site here!](https://reganlosey.github.io/static-comp/)
+### [Check out the full site here!](https://reganlosey.github.io/synthwave-static-comp/)
 
 <br>
 
